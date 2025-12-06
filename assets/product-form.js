@@ -184,6 +184,7 @@ class ProductFormComponent extends Component {
       }
       formData.append('sections', cartItemComponentsSectionIds.join(','));
     });
+console.log('fd',formData);
 
     const fetchCfg = fetchConfig('javascript', { body: formData });
 

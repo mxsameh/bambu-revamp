@@ -168,7 +168,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>DUVET COVERS</h2>",
+                "text": "<h3>DUVET COVERS</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -519,7 +519,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>FITTED BEDSHEETS</h2>",
+                "text": "<h3>FITTED BEDSHEETS</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",

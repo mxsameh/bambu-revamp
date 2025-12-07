@@ -244,6 +244,7 @@
         "group_EUUkMF",
         "footer_utilities_B7cUpb"
       ],
+      "disabled": true,
       "name": "Footer",
       "settings": {
         "content_direction": "column",
@@ -253,7 +254,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 44,
+        "gap": 0,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,

@@ -21,7 +21,7 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-#f > a{
+#f > div > a{
     flex-basis:100%;
     font-size: 14rem;
     color: black;

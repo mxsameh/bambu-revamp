@@ -1,15 +1,14 @@
-html{
-    font-size: calc( 100vw / 1440);
-}
+
 #f{
-    padding-top: 40rem;
+       font-size: calc( 100vw / 1440);
+    padding-top: 40em;
     border-top: 1px solid black;
-    padding-inline: 32rem;
-    padding-bottom: 24rem;
+    padding-inline: 32em;
+    padding-bottom: 24em;
 
 }
 #f figure{
-    width: 300rem;
+    width: 300em;
     margin-inline:auto;
     & img{
         width:100%;
@@ -19,13 +18,13 @@ html{
 }
 
 #f > div{
-    margin-top: 40rem;
+    margin-top: 40em;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 #f > div > a{
-    font-size: 14rem;
+    font-size: 14em;
     color: black;
     &:first-child{
         flex-basis: 100%;

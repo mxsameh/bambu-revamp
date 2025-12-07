@@ -1,3 +1,6 @@
+html{
+    font-size: calc( 100vw / 1440);
+}
 #f{
     padding-top: 40rem;
     border-top: 1px solid black;
@@ -14,12 +17,12 @@
 }
 
 #f > div{
-    display:flex
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
 #f > a:first-child:{
-flex-basis100%;
+flex-basis:100%;
 }
 #f > a:last-child{
     flex-shrink:0;
@@ -29,5 +32,5 @@ flex-basis100%;
     display:flex;
     gap: 8rem;
 
-    flex-basis: 100%
+    flex-basis: 100%;
 }

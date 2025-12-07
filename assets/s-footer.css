@@ -9,6 +9,7 @@ html{
 }
 #f figure{
     width: 300rem;
+    margin-inline:auto;
     & img{
         width:100%;
         height: 100%;

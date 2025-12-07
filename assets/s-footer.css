@@ -5,6 +5,7 @@ html{
     padding-top: 40rem;
     border-top: 1px solid black;
     padding-inline: 32rem;
+    padding-bottom: 24rem;
 
 }
 #f figure{
@@ -18,6 +19,7 @@ html{
 }
 
 #f > div{
+    margin-top: 40rem;
     display:flex;
     justify-content: space-between;
     align-items: center;

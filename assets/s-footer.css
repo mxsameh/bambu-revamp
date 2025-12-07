@@ -18,3 +18,16 @@
     justify-content: space-between;
     align-items: center;
 }
+#f > a:first-child:{
+flex-basis100%;
+}
+#f > a:last-child{
+    flex-shrink:0;
+}
+
+.f_s{
+    display:flex;
+    gap: 8rem;
+
+    flex-basis: 100%
+}

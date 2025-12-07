@@ -31,6 +31,8 @@ flex-basis:100%;
 .f_s{
     display:flex;
     gap: 8rem;
-
     flex-basis: 100%;
+}
+.f_s svg{
+    width: 24rem;
 }

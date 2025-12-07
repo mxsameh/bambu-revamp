@@ -37,10 +37,10 @@
 
 .f_s{
     display:flex;
-    gap: 8rem;
+    gap: 8em;
     flex-basis: 100%;
     justify-content:flex-end;
 }
 .f_s svg{
-    width: 24rem;
+    width: 24em;
 }

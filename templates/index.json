@@ -465,6 +465,20 @@
         "padding-block-end": 0
       }
     },
+    "divider_QPtwrp": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 24,
+        "padding-block-end": 24
+      }
+    },
     "product_list_GABUeQ": {
       "type": "product-list",
       "blocks": {
@@ -806,6 +820,7 @@
   "order": [
     "hero_RkimKJ",
     "product_list_X8Q7bi",
+    "divider_QPtwrp",
     "product_list_GABUeQ"
   ]
 }

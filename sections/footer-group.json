@@ -11,6 +11,13 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "n_footer_MrJiL4": {
+      "type": "n-footer",
+      "name": "Footer",
+      "settings": {
+        "logo": "shopify://shop_images/image_2.png"
+      }
+    },
     "custom_section_76dqAh": {
       "type": "section",
       "blocks": {
@@ -268,6 +275,7 @@
     }
   },
   "order": [
+    "n_footer_MrJiL4",
     "custom_section_76dqAh"
   ]
 }

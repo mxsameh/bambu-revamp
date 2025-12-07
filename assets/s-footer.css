@@ -21,12 +21,13 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-#f > a:first-child:{
-flex-basis:100%;
+#f > a{
+    flex-basis:100%;
+    font-size: 14rem;
+    color: black;
+
 }
-#f > a:last-child{
-    flex-shrink:0;
-}
+
 
 .f_s{
     display:flex;

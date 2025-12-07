@@ -1,10 +1,19 @@
+{% liquid
+  assign ig_link = 'https://www.instagram.com/bambucairo/'
+  assign fb_link = 'https://www.facebook.com/people/Bambucairo'
+%}
+
 <footer>
+
   <figure>
     {{ section.settings.logo | image_url: width: 1100 | image_tag }}
   </figure>
   <div>
     {{ "CONTACT" | link_to: pages['contact'].url  }}
     {{ "TERMS & CONDITIONS" | link_to: shop.refund_policy }}
+    <div>
+        
+    </div>
   </div>
 </footer>
 {% schema %}

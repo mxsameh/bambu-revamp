@@ -1,0 +1,20 @@
+<footer>
+    <figure>
+            {{ section.settings.logo | image_url: width: 1100 | image_tag }}
+    </figure>
+    <div>
+    </div>
+</footer>
+{% schema %}
+{
+  "name": "n-footer",
+  "settings": [
+    {
+      "id": "logo",
+      "label": "Logo",
+      "type": "image_picker"
+    }
+  ],
+  "presets": [{ "name": "Footer" }]
+}
+{% endschema %}

@@ -103,7 +103,7 @@
       "settings": {
         "media_type_1": "image",
         "image_1": "shopify://shop_images/Screen_Shot_2025-09-17_at_6.27.27_PM.png",
-        "media_type_2": "image",
+        "media_type_2": "video",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -202,7 +202,7 @@
           "settings": {
             "product_card_gap": 0,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-1",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,

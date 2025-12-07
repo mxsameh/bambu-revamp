@@ -22,9 +22,14 @@ html{
     align-items: center;
 }
 #f > div > a{
-    flex-basis:100%;
     font-size: 14rem;
     color: black;
+    &:first-child{
+        flex-basis: 100%;
+    }
+    &:last-child{
+        flex-shrink: 0;
+    }
 
 }
 

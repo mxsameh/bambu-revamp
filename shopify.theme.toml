@@ -1,3 +1,4 @@
 [environments.dev]
-theme = "Revamp"
 store = "swwjc2-jt.myshopify.com"
+theme = "revamp"
+password = "daykle"

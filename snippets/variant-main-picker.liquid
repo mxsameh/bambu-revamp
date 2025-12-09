@@ -33,7 +33,6 @@
     {% endif %}
   >
     <form class="variant-picker__form">
-        <input type="text" name="properties[Initials]" />
       {%- for product_option in product_resource.options_with_values -%}
         {%- liquid
           assign swatch_count = product_option.values | map: 'swatch' | compact | size

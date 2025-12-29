@@ -64,10 +64,13 @@
           value="{{ product.selected_or_first_available_variant.id }}"
         >
 
-        <fieldset class="initials">
-          <legend>Initials (optional)</legend>
-          <input type="text" name="properties[Initials]">
-        </fieldset>
+        {% if block_settings.initials %}
+          <fieldset class="initials">
+            <legend>Initials (optional)</legend>
+            <input type="text" name="properties[Initials]">
+          </fieldset>
+        {% endif %}
+
         {%- if block_settings.gift_card_form and product.gift_card? -%}
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section, block: block -%}
         {%- endif -%}

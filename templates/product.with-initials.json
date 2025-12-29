@@ -167,6 +167,7 @@
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
+                "initials": true,
                 "stacking": false,
                 "show_pickup_availability": false,
                 "gift_card_form": true,

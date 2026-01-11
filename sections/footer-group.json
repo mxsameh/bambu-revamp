@@ -11,6 +11,17 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "custom_liquid_988tLF": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.shopify-policy__title{\ndisplay:\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "n_footer_MrJiL4": {
       "type": "n-footer",
       "name": "Footer",
@@ -276,6 +287,7 @@
     }
   },
   "order": [
+    "custom_liquid_988tLF",
     "n_footer_MrJiL4",
     "custom_section_76dqAh"
   ]

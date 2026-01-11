@@ -15,7 +15,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "<style>\n.shopify-policy__container{\npadding-top: 40px;\n}\n.shopify-policy__title{\ndisplay:none;\n}\n</style>",
+        "custom_liquid": "<style>\n\n.shopify-policy__container\npadding-top: 40px;\n}\n.shopify-policy__title{\ndisplay:none;\n}\n</style>",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,

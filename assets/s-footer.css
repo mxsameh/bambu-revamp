@@ -30,8 +30,9 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     @media (width > 770px){
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 #f > div > a{

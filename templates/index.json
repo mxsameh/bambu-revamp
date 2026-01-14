@@ -244,7 +244,7 @@
       "settings": {
         "collection": "duvet-cover-sets",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 3,
         "columns": 3,
         "mobile_columns": "1",
@@ -480,12 +480,12 @@
       "settings": {
         "collection": "fitted-bedsheets",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 3,
         "columns": 3,
         "mobile_columns": "1",
         "mobile_card_size": "60cqw",
-        "columns_gap": 0,
+        "columns_gap": 8,
         "rows_gap": 4,
         "icons_style": "arrow",
         "icons_shape": "none",

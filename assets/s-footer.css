@@ -55,5 +55,8 @@
     justify-content:flex-end;
 }
 .f_s svg{
-    width: 24em;
+    width: 30em;
+    @media (width > 770px){
+        width 24em;
+    }
 }

@@ -6,7 +6,8 @@
     padding-inline: 32em;
     padding-bottom: 24em;
     @media (width > 770px){
-        
+            font-size: calc( 100vw / 1440);
+
     }
 
 }

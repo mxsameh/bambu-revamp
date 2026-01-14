@@ -1,13 +1,13 @@
 
 #f{
-    font-size: calc( 100vw / 1440);
+    font-size: calc( 100vw / 400);
     padding-top: 40em;
     border-top: 1px solid black;
     padding-inline: 32em;
     padding-bottom: 24em;
     @media (width > 770px){
-            font-size: calc( 100vw / 1440);
-
+        font-size: calc( 100vw / 1440);
+        padding-inline: 16px;
     }
 
 }

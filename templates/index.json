@@ -249,7 +249,7 @@
         "columns": 3,
         "mobile_columns": "1",
         "mobile_card_size": "60cqw",
-        "columns_gap": 0,
+        "columns_gap": 8,
         "rows_gap": 4,
         "icons_style": "arrow",
         "icons_shape": "none",

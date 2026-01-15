@@ -4272,3 +4272,6 @@ text-component {
 .header__column{
   color: black !important;
 }
+.d-n{
+  display:none;
+}

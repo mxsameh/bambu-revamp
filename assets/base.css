@@ -4267,5 +4267,5 @@ text-component {
 
 
 .menu-list__link{
-  color: black;
+  color: black !important;
 }

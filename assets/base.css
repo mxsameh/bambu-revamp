@@ -4264,3 +4264,8 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+
+
+.menu-list__link{
+  color: black;
+}

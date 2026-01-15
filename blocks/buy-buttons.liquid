@@ -67,7 +67,7 @@
           {% liquid
             assign variant = product.selected_or_first_available_variant
 
-            if variant.public_title contains 'Yes'
+            if variant.title contains 'Yes'
               assign v = 'yes'
             else
               assign v = 'no'

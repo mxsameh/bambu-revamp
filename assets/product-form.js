@@ -299,6 +299,7 @@ class ProductFormComponent extends Component {
   #onVariantUpdate = (event) => {
     if (event.detail.data.newProduct) {
       this.dataset.productId = event.detail.data.newProduct.id;
+      console.log('kaka',this.dataset)
     } else if (event.detail.data.productId !== this.dataset.productId) {
       return;
     }

@@ -4270,5 +4270,5 @@ text-component {
   color: black !important;
 }
 .header__column{
-  color: black;
+  color: black !important;
 }

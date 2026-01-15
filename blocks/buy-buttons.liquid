@@ -36,37 +36,7 @@
   endif
 %}
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const initialsFieldset = document.querySelector('.initials');
 
-  if (!initialsFieldset) return;
-
-  // function to toggle visibility based on variant title
-  const toggleInitials = (variant) => {
-    if (variant.title.includes('Yes')) {
-      initialsFieldset.classList.remove('d-n'); // show
-    } else {
-      initialsFieldset.classList.add('d-n'); // hide
-    }
-  };
-
-  // run once on page load
-  const initialVariantInput = document.querySelector('[name="id"]');
-  if (initialVariantInput) {
-    const selectedOptionText = initialVariantInput.dataset.variantTitle;
-    if (selectedOptionText) {
-      toggleInitials({ title: selectedOptionText });
-    }
-  }
-
-  // update when user changes variant
-  document.addEventListener('variantUpdate', (event) => {
-    if (!event.detail.resource) return;
-    toggleInitials(event.detail.resource);
-  });
-});
-</script>
 
 <span
   class="buy-buttons-block buy-buttons-block--{{ block.id }}"

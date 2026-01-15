@@ -64,6 +64,11 @@
           value="{{ product.selected_or_first_available_variant.id }}"
         >
         {% if block_settings.initials %}
+          {% liquid
+             if product.selected_or_first_available_variant contains "Yes"
+             echo 'ehh'
+             endif
+          %}
           {% if product.selected_or_first_available_variant contains 'Yes' %}
             <fieldset class="initials">
               <legend>Initials (optional)</legend>

@@ -299,7 +299,6 @@ class ProductFormComponent extends Component {
   #onVariantUpdate = (event) => {
     if (event.detail.data.newProduct) {
       this.dataset.productId = event.detail.data.newProduct.id;
-      console.log('kaka',this.dataset)
     } else if (event.detail.data.productId !== this.dataset.productId) {
       return;
     }
@@ -322,12 +321,12 @@ class ProductFormComponent extends Component {
 
     // Update the add to cart button text and icon
     if (newAddToCartButton) {
-      console.log('kk')
       morph(currentAddToCartButton, newAddToCartButton);
     }
 
     // Update the variant ID
     variantId.value = event.detail.resource.id ?? '';
+    console.log('ee',event.detail.resource)
 
     // Set the data attribute for the add to cart button to the product variant media if it exists
     if (event.detail.resource) {

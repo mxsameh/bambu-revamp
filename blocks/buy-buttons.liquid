@@ -36,6 +36,7 @@
   endif
 %}
 
+
 <span
   class="buy-buttons-block buy-buttons-block--{{ block.id }}"
   {{ block.shopify_attributes }}
@@ -117,6 +118,16 @@
     </product-form-component>
   {%- else -%}
     <div class="product-form-buttons">
+          {% liquid
+            assign variant = product.selected_or_first_available_variant
+
+            if variant.title contains 'Yes'
+              assign v = true
+            else
+              assign v = false
+            endif
+          %}
+          {{  v }}
       <button
         type="submit"
         name="add"

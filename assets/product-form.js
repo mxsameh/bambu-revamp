@@ -330,7 +330,11 @@ class ProductFormComponent extends Component {
     const hasInitials = event.detail.resource.options.includes('Yes');
 
     const ifs = document.querySelector('.initials')
-    console.log(ifs,hasInitials);
+     if (hasInitials) {
+      ifs.classList.remove('d-n'); // show
+    } else {
+      ifs.classList.add('d-n'); // hide
+    }
     
 
     // Set the data attribute for the add to cart button to the product variant media if it exists

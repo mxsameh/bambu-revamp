@@ -37,7 +37,6 @@
 %}
 
 
-
 <span
   class="buy-buttons-block buy-buttons-block--{{ block.id }}"
   {{ block.shopify_attributes }}
@@ -75,6 +74,7 @@
               assign v = false
             endif
           %}
+          <p id='in-title' class="d-n">{{ variant.title }}</p>
 
           <fieldset class="initials {% unless v %}d-n{% endunless %}">
             <legend>Initials (optional)</legend>

@@ -63,8 +63,9 @@
           ref="variantId"
           value="{{ product.selected_or_first_available_variant.id }}"
         >
-
         {% if block_settings.initials %}
+          {{   product.selected_or_first_available_variant }}
+
           <fieldset class="initials">
             <legend>Initials (optional)</legend>
             <input type="text" name="properties[Initials]">

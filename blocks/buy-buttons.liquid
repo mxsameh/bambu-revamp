@@ -68,18 +68,17 @@
             assign variant = product.selected_or_first_available_variant
 
             if variant.title contains 'Yes'
-              assign v = 'yes'
+              assign v = true
             else
-              assign v = 'no'
+              assign v = false
             endif
           %}
 
-          {% if product.selected_or_first_available_variant contains 'Yes' %}
             <fieldset class="initials {% unless v %}d-n{% endunless %}">
               <legend>Initials (optional)</legend>
               <input type="text" name="properties[Initials]">
             </fieldset>
-          {% endif %}
+ 
         {% endif %}
 
         {%- if block_settings.gift_card_form and product.gift_card? -%}

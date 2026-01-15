@@ -4271,6 +4271,9 @@ text-component {
 }
 .header__column{
   color: black !important;
+  & svg{
+    color:black !important;
+  }
 }
 .d-n{
   display:none;

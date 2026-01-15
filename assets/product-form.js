@@ -328,6 +328,9 @@ class ProductFormComponent extends Component {
     variantId.value = event.detail.resource.id ?? '';
     console.log('ee',event.detail.resource)
     console.log('ee',event.detail.resource.options.includes('Yes'))
+    const ifs = document.querySelector('.initials')
+    console.log(ifs);
+    
 
     // Set the data attribute for the add to cart button to the product variant media if it exists
     if (event.detail.resource) {

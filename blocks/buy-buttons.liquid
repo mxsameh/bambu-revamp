@@ -73,17 +73,9 @@
               assign v = 'no'
             endif
           %}
-          {{ v }}
-        {% assign variant = product.selected_or_first_available_variant %}
 
-{{ variant.name }}
-{{ variant.public_title }}
-{% assign variant = product.selected_or_first_available_variant %}
-
-
-{{ variant.title }}
           {% if product.selected_or_first_available_variant contains 'Yes' %}
-            <fieldset class="initials">
+            <fieldset class="initials {% unless v %}d-n{% endunless %}">
               <legend>Initials (optional)</legend>
               <input type="text" name="properties[Initials]">
             </fieldset>

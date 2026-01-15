@@ -66,10 +66,11 @@
         {% if block_settings.initials %}
           {% liquid
              if product.selected_or_first_available_variant contains "Yes"
-             echo 'ehh'
-             else echo 'onn'
+             assign v = "yes"
+             else assign v = "no"
              endif
           %}
+          {{ v }}
           {% if product.selected_or_first_available_variant contains 'Yes' %}
             <fieldset class="initials">
               <legend>Initials (optional)</legend>

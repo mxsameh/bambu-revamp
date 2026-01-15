@@ -322,6 +322,7 @@ class ProductFormComponent extends Component {
 
     // Update the add to cart button text and icon
     if (newAddToCartButton) {
+      console.log('kk')
       morph(currentAddToCartButton, newAddToCartButton);
     }
 

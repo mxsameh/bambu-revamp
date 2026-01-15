@@ -64,7 +64,7 @@
           value="{{ product.selected_or_first_available_variant.id }}"
         >
         {% if block_settings.initials %}
-          {{   product.selected_or_first_available_variant }}
+          {{   product.selected_or_first_available_variant | json}}
 
           <fieldset class="initials">
             <legend>Initials (optional)</legend>

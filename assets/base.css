@@ -4269,3 +4269,6 @@ text-component {
 .menu-list__link{
   color: black !important;
 }
+.header__column{
+  color: black;
+}

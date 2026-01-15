@@ -65,10 +65,13 @@
         >
         {% if block_settings.initials %}
           {% liquid
-             if product.selected_or_first_available_variant contains "Yes"
-             assign v = "yes"
-             else assign v = "no"
-             endif
+            assign variant = product.selected_or_first_available_variant
+
+            if variant.public_title contains 'Yes'
+              assign v = 'yes'
+            else
+              assign v = 'no'
+            endif
           %}
           {{ v }}
           {% if product.selected_or_first_available_variant contains 'Yes' %}

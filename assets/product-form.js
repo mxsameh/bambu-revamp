@@ -327,10 +327,8 @@ class ProductFormComponent extends Component {
     // Update the variant ID
     variantId.value = event.detail.resource.id ?? '';
     console.log('ee',event.detail.resource)
-
-    
    // Update the initials
-    console.log('ee', event.detail.resource.options.includes('Yes'))
+   
     const initialsFieldset = document.querySelector('.initials');
     if (initialsFieldset && event.detail.resource) {
       if (event.detail.resource.options.includes('Yes')) {

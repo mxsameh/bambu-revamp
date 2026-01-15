@@ -87,16 +87,6 @@
           class="product-form-buttons spacing-style{% if block_settings.stacking %} product-form-buttons--stacked{% endif %}"
           style="{% render 'spacing-style', settings: block_settings %}"
         >
-          {% liquid
-            assign variant = product.selected_or_first_available_variant
-
-            if variant.title contains 'Yes'
-              assign v = true
-            else
-              assign v = false
-            endif
-          %}
-          {{ v }}
           {% content_for 'block', type: 'quantity', id: 'quantity' %}
 
           {% content_for 'block',

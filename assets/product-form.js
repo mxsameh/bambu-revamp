@@ -328,14 +328,14 @@ class ProductFormComponent extends Component {
     variantId.value = event.detail.resource.id ?? '';
     console.log('ee',event.detail.resource)
    // Update the initials
-const initialsFieldset = document.querySelector('.initials');
-if (initialsFieldset && event.detail.resource) {
-  if (event.detail.resource.options.includes('Yes')) {
-    initialsFieldse?t.classList.remove('d-n'); // show
-  } else {
-    initialsFieldset?.classList.add('d-n'); // hide
-  }
-}
+    const initialsFieldset = document.querySelector('.initials');
+    if (initialsFieldset && event.detail.resource) {
+      if (event.detail.resource.options.includes('Yes')) {
+        initialsFieldse?t.classList.remove('d-n'); // show
+      } else {
+        initialsFieldset?.classList.add('d-n'); // hide
+      }
+    }
 
 
     // Set the data attribute for the add to cart button to the product variant media if it exists
